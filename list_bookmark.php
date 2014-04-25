@@ -20,14 +20,15 @@
 		if($sql)
 		{
 			/*** the SQL query to select last 5 blogs ***/
-			$stmt = "SELECT bookmarklist.BookmarkID,bookmarklist.Title, bookmarklist.URL, bookmarklist.Tags 
-			FROM bookmark_user,bookmarklist
-			where bookmarklist.BookmarkID = bookmark_user.BookmarkID
-			and bookmark_user.UserID = {$UserID}";
+			$stmt = "SELECT BookmarkList.BookmarkID,BookmarkList.Title, BookmarkList.URL, BookmarkList.Tags 
+			FROM Bookmark_User,BookmarkList
+			where BookmarkList.BookmarkID = Bookmark_User.BookmarkID
+			and Bookmark_User.UserID = {$UserID}";
 
 			
 			/*** run the query ***/
 			$result = mysqli_query($sql,$stmt);
+			$row = mysqli_num_rows($result);
 
 			
 				/*** check there are results ***/
@@ -80,7 +81,7 @@ padding:5px;
 <?php
 $bookmark_array = array();
 while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
-					{
+				{
 						$bookmark_array[] = $row;
 					}
 	/*** loop over the blog array and display blogs ***/

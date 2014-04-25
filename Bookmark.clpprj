@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\Bookmark\Bookmark.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost:81/Bookmark/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost:81/Bookmark/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\wamp\www\Bookmark\add_bookmark_submit.php;C:\wamp\www\Bookmark\includes\register_form.php;"/><added value=""/><lastopfiles>
-		<file name="C:\wamp\www\Bookmark\includes\conn.php"/>
 		<file name="C:\wamp\www\Bookmark\login.php"/>
-		<file name="C:\wamp\www\Bookmark\login_submit.php"/>
-		<file name="C:\wamp\www\Bookmark\adduser.php"/>
-		<file name="C:\wamp\www\Bookmark\adduser_submit.php"/>
-		<file name="C:\wamp\www\Bookmark\includes\user_form.php"/>
-		<file name="C:\wamp\www\Bookmark\index.php"/>
+		<file name="C:\wamp\www\Bookmark\edit_bookmark_submit.php"/>
+		<file name="C:\wamp\www\Bookmark\edit_bookmark.php"/>
+		<file name="C:\wamp\www\Bookmark\includes\footer.php"/>
 		<file name="C:\wamp\www\Bookmark\list_bookmark.php"/>
+		<file name="C:\wamp\www\Bookmark\login_submit.php"/>
+		<file name="C:\wamp\www\Bookmark\includes\editbookmark_form.php"/>
 	</lastopfiles>
 	<errors version="4.5">
 	</errors>
@@ -22,35 +21,35 @@
 			</treenode>
 			<treenode node="includes/bookmark_form.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f15;65;41;65;;C:\wamp\www\Bookmark\add_bookmark.php;f14;27;40;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/conn.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f12;23;29;23;;C:\wamp\www\Bookmark\del_bookmark.php;f12;19;29;19;;C:\wamp\www\Bookmark\edit_bookmark.php;f12;23;29;23;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f13;20;30;20;;C:\wamp\www\Bookmark\addbookmark_submit.php;f15;28;32;28;;C:\wamp\www\Bookmark\adduser_submit.php;f13;53;30;53;;C:\wamp\www\Bookmark\login.php;f11;1;28;1;;C:\wamp\www\Bookmark\index.php;f10;2;27;2;;C:\wamp\www\Bookmark\login_submit.php;f17;10;34;10;;C:\wamp\www\Bookmark\list_bookmark.php;f11;16;28;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/conn.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f12;23;29;23;;C:\wamp\www\Bookmark\del_bookmark.php;f12;19;29;19;;C:\wamp\www\Bookmark\login.php;f11;1;28;1;;C:\wamp\www\Bookmark\adduser_submit.php;f13;53;30;53;;C:\wamp\www\Bookmark\addbookmark_submit.php;f15;28;32;28;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f13;20;30;20;;C:\wamp\www\Bookmark\index.php;f10;2;27;2;;C:\wamp\www\Bookmark\login_submit.php;f17;10;34;10;;C:\wamp\www\Bookmark\list_bookmark.php;f11;16;28;16;;C:\wamp\www\Bookmark\edit_bookmark.php;f12;23;29;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/editbookmark_form.php;PHP:PHP Include;C:\wamp\www\Bookmark\edit_bookmark.php;f15;65;45;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/editbookmark_form.php;PHP:PHP Include;C:\wamp\www\Bookmark\edit_bookmark.php;f15;58;45;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/footer.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f11;81;30;81;;C:\wamp\www\Bookmark\edit_bookmark.php;f11;81;30;81;;C:\wamp\www\Bookmark\add_bookmark.php;f14;30;33;30;;C:\wamp\www\Bookmark\adduser.php;f13;24;32;24;;C:\wamp\www\Bookmark\adduser_submit.php;f9;133;28;133;;C:\wamp\www\Bookmark\login.php;f15;28;34;28;;C:\wamp\www\Bookmark\index.php;f15;12;34;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/footer.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f11;81;30;81;;C:\wamp\www\Bookmark\add_bookmark.php;f14;30;33;30;;C:\wamp\www\Bookmark\adduser.php;f13;24;32;24;;C:\wamp\www\Bookmark\login.php;f15;28;34;28;;C:\wamp\www\Bookmark\adduser_submit.php;f9;133;28;133;;C:\wamp\www\Bookmark\index.php;f15;12;34;12;;C:\wamp\www\Bookmark\edit_bookmark.php;f11;65;30;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/header.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f10;5;29;5;;C:\wamp\www\Bookmark\del_bookmark.php;f10;5;29;5;;C:\wamp\www\Bookmark\edit_bookmark.php;f10;5;29;5;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f10;5;29;5;;C:\wamp\www\Bookmark\add_bookmark.php;f10;5;29;5;;C:\wamp\www\Bookmark\addbookmark_submit.php;f10;5;29;5;;C:\wamp\www\Bookmark\adduser.php;f13;18;32;18;;C:\wamp\www\Bookmark\adduser_submit.php;f9;8;28;8;;C:\wamp\www\Bookmark\login.php;f17;6;36;6;;C:\wamp\www\Bookmark\index.php;f15;0;34;0;;C:\wamp\www\Bookmark\list_bookmark.php;f10;5;29;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/header.php;PHP:PHP Include;C:\wamp\www\Bookmark\Codelobster0.php;f10;5;29;5;;C:\wamp\www\Bookmark\add_bookmark.php;f10;5;29;5;;C:\wamp\www\Bookmark\adduser.php;f13;18;32;18;;C:\wamp\www\Bookmark\del_bookmark.php;f10;5;29;5;;C:\wamp\www\Bookmark\login.php;f17;6;36;6;;C:\wamp\www\Bookmark\adduser_submit.php;f9;8;28;8;;C:\wamp\www\Bookmark\addbookmark_submit.php;f10;5;29;5;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f10;5;29;5;;C:\wamp\www\Bookmark\index.php;f15;0;34;0;;C:\wamp\www\Bookmark\list_bookmark.php;f10;5;29;5;;C:\wamp\www\Bookmark\edit_bookmark.php;f10;5;29;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="includes/user_form.php;PHP:PHP Include;C:\wamp\www\Bookmark\adduser.php;f13;21;35;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="_GET;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f11;20;16;20;;C:\wamp\www\Bookmark\del_bookmark.php;f11;16;16;16;;C:\wamp\www\Bookmark\edit_bookmark.php;f11;20;16;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_POST;PHP:Var Name;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f36;16;42;16;;C:\wamp\www\Bookmark\addbookmark_submit.php;f12;16;18;16;;C:\wamp\www\Bookmark\adduser_submit.php;f14;19;20;19;;C:\wamp\www\Bookmark\login_submit.php;f18;19;24;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_POST;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f14;19;20;19;;C:\wamp\www\Bookmark\addbookmark_submit.php;f12;16;18;16;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f36;16;42;16;;C:\wamp\www\Bookmark\login_submit.php;f18;19;24;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f11;8;20;8;;C:\wamp\www\Bookmark\includes\header.php;f10;4;19;4;;C:\wamp\www\Bookmark\logout.php;f17;9;26;9;;C:\wamp\www\Bookmark\del_bookmark.php;f11;8;20;8;;C:\wamp\www\Bookmark\edit_bookmark.php;f11;8;20;8;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f11;8;20;8;;C:\wamp\www\Bookmark\add_bookmark.php;f11;8;20;8;;C:\wamp\www\Bookmark\addbookmark_submit.php;f11;8;20;8;;C:\wamp\www\Bookmark\adduser.php;f4;9;13;9;;C:\wamp\www\Bookmark\adduser_submit.php;f10;14;19;14;;C:\wamp\www\Bookmark\login.php;f8;9;17;9;;C:\wamp\www\Bookmark\index.php;f10;3;19;3;;C:\wamp\www\Bookmark\login_submit.php;f14;14;23;14;;C:\wamp\www\Bookmark\list_bookmark.php;f11;6;20;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_SESSION;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f11;8;20;8;;C:\wamp\www\Bookmark\logout.php;f17;9;26;9;;C:\wamp\www\Bookmark\includes\header.php;f10;4;19;4;;C:\wamp\www\Bookmark\add_bookmark.php;f11;8;20;8;;C:\wamp\www\Bookmark\adduser.php;f4;9;13;9;;C:\wamp\www\Bookmark\del_bookmark.php;f11;8;20;8;;C:\wamp\www\Bookmark\login.php;f8;9;17;9;;C:\wamp\www\Bookmark\adduser_submit.php;f10;14;19;14;;C:\wamp\www\Bookmark\addbookmark_submit.php;f11;8;20;8;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f11;8;20;8;;C:\wamp\www\Bookmark\index.php;f10;3;19;3;;C:\wamp\www\Bookmark\login_submit.php;f14;14;23;14;;C:\wamp\www\Bookmark\list_bookmark.php;f11;6;20;6;;C:\wamp\www\Bookmark\edit_bookmark.php;f11;8;20;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="Access_Level;PHP:Var Name;C:\wamp\www\Bookmark\includes\header.php;f2;6;15;6;;C:\wamp\www\Bookmark\adduser_submit.php;f4;64;17;64;;C:\wamp\www\Bookmark\index.php;f2;5;15;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="affected;PHP:Var Name;C:\wamp\www\Bookmark\del_bookmark.php;f5;44;14;44;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bookmark_array;PHP:Var Name;C:\wamp\www\Bookmark\list_bookmark.php;f5;41;20;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bookmark_array;PHP:Var Name;C:\wamp\www\Bookmark\list_bookmark.php;f5;42;20;42;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bookmarkform_action;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;56;27;56;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f31;1;51;1;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f31;1;51;1;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;56;27;56;;C:\wamp\www\Bookmark\add_bookmark.php;f5;21;25;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bookmarkform_action;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;56;27;56;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f31;1;51;1;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f31;1;51;1;;C:\wamp\www\Bookmark\add_bookmark.php;f5;21;25;21;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f31;1;51;1;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;49;26;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bookmarkform_submit_value;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;62;33;62;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f51;17;77;17;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f51;17;77;17;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;62;33;62;;C:\wamp\www\Bookmark\add_bookmark.php;f5;24;31;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bookmarkform_submit_value;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;62;33;62;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f51;17;77;17;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f51;17;77;17;;C:\wamp\www\Bookmark\add_bookmark.php;f5;24;31;24;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f51;17;77;17;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;55;32;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="BookmarkID;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f4;28;15;28;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f63;21;74;21;;C:\wamp\www\Bookmark\del_bookmark.php;f4;25;15;25;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;28;15;28;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;26;16;26;;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;54;17;54;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="BookmarkID;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f4;28;15;28;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f63;21;74;21;;C:\wamp\www\Bookmark\del_bookmark.php;f4;25;15;25;;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;58;17;58;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;26;16;26;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f63;21;74;21;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;28;15;28;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bookmarklist;PHP:Var Name;C:\wamp\www\Bookmark\list_bookmark.php;f28;94;41;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bookmarklist;PHP:Var Name;C:\wamp\www\Bookmark\list_bookmark.php;f28;95;41;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="common_heading;PHP:Var Name;C:\wamp\www\Bookmark\includes\common.php;f15;4;30;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -58,27 +57,31 @@
 			</treenode>
 			<treenode node="db;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f6;26;9;26;;;;vposbool;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="dbname;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;12;7;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="dbhost;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;14;7;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="dbname;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;13;7;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="dbport;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;15;7;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="err;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f20;112;24;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="error;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f14;77;20;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="error;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f14;81;20;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="errors;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f7;18;14;18;;C:\wamp\www\Bookmark\adduser_submit.php;f0;11;7;11;;C:\wamp\www\Bookmark\list_bookmark.php;f3;53;10;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="errors;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f0;11;7;11;;C:\wamp\www\Bookmark\addbookmark_submit.php;f7;18;14;18;;C:\wamp\www\Bookmark\list_bookmark.php;f3;54;10;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="FirstName;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f4;62;14;62;;C:\wamp\www\Bookmark\includes\user_form.php;f81;26;91;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="FirstName;PHP:Var Name;C:\wamp\www\Bookmark\includes\user_form.php;f81;26;91;26;;C:\wamp\www\Bookmark\adduser_submit.php;f4;62;14;62;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="form_action;PHP:Var Name;C:\wamp\www\Bookmark\adduser.php;f4;12;16;12;;C:\wamp\www\Bookmark\includes\user_form.php;f31;10;43;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="form_action;PHP:Var Name;C:\wamp\www\Bookmark\includes\user_form.php;f31;10;43;10;;C:\wamp\www\Bookmark\adduser.php;f4;12;16;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="form_token;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f2;16;13;16;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f64;22;75;22;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f64;21;75;21;;C:\wamp\www\Bookmark\edit_bookmark.php;f2;16;13;16;;C:\wamp\www\Bookmark\add_bookmark.php;f2;17;13;17;;C:\wamp\www\Bookmark\adduser.php;f4;6;15;6;;C:\wamp\www\Bookmark\includes\user_form.php;f63;39;74;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="form_token;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f2;16;13;16;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f64;22;75;22;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f64;21;75;21;;C:\wamp\www\Bookmark\includes\user_form.php;f63;39;74;39;;C:\wamp\www\Bookmark\add_bookmark.php;f2;17;13;17;;C:\wamp\www\Bookmark\adduser.php;f4;6;15;6;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f64;22;75;22;;C:\wamp\www\Bookmark\edit_bookmark.php;f2;16;13;16;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="heading;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;55;15;55;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f21;0;29;0;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f21;0;29;0;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;55;15;55;;C:\wamp\www\Bookmark\includes\user_form.php;f21;9;29;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="heading;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;55;15;55;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f21;0;29;0;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f21;0;29;0;;C:\wamp\www\Bookmark\includes\user_form.php;f21;9;29;9;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f21;0;29;0;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;48;14;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="hostname;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;3;9;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="LastName;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f4;63;13;63;;C:\wamp\www\Bookmark\includes\user_form.php;f79;30;88;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="LastName;PHP:Var Name;C:\wamp\www\Bookmark\includes\user_form.php;f79;30;88;30;;C:\wamp\www\Bookmark\adduser_submit.php;f4;63;13;63;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="location;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f19;65;28;65;;C:\wamp\www\Bookmark\login_submit.php;f8;16;17;16;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="location;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f19;69;28;69;;C:\wamp\www\Bookmark\login_submit.php;f8;16;17;16;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="log_link;PHP:Var Name;C:\wamp\www\Bookmark\includes\header.php;f2;8;11;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -86,31 +89,31 @@
 			</treenode>
 			<treenode node="password;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;10;9;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="result;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f4;41;11;41;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;41;11;41;;C:\wamp\www\Bookmark\addbookmark_submit.php;f20;50;27;50;;C:\wamp\www\Bookmark\login_submit.php;f12;66;19;66;;C:\wamp\www\Bookmark\list_bookmark.php;f3;29;10;29;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="result;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f4;41;11;41;;C:\wamp\www\Bookmark\addbookmark_submit.php;f18;52;25;52;;C:\wamp\www\Bookmark\login_submit.php;f12;66;19;66;;C:\wamp\www\Bookmark\list_bookmark.php;f3;29;10;29;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;37;11;37;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="result2;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;56;14;56;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="result2;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;60;14;60;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="row;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f12;53;16;53;;C:\wamp\www\Bookmark\edit_bookmark.php;f12;53;16;53;;C:\wamp\www\Bookmark\login_submit.php;f16;74;20;74;;C:\wamp\www\Bookmark\list_bookmark.php;f11;42;15;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="row;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f12;53;16;53;;C:\wamp\www\Bookmark\login_submit.php;f16;74;20;74;;C:\wamp\www\Bookmark\list_bookmark.php;f3;30;7;30;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;38;8;38;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="selected;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;57;16;57;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;57;16;57;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="selected;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;57;16;57;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;50;15;50;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="sql;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f4;29;8;29;;C:\wamp\www\Bookmark\del_bookmark.php;f6;22;10;22;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;26;10;26;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f7;23;11;23;;C:\wamp\www\Bookmark\addbookmark_submit.php;f9;30;13;30;;C:\wamp\www\Bookmark\includes\conn.php;f0;16;4;16;;C:\wamp\www\Bookmark\adduser_submit.php;f42;55;46;55;;C:\wamp\www\Bookmark\login_submit.php;f46;42;50;42;;C:\wamp\www\Bookmark\list_bookmark.php;f5;19;9;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="sql;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f4;29;8;29;;C:\wamp\www\Bookmark\includes\conn.php;f0;27;4;27;;C:\wamp\www\Bookmark\del_bookmark.php;f6;22;10;22;;C:\wamp\www\Bookmark\adduser_submit.php;f42;55;46;55;;C:\wamp\www\Bookmark\addbookmark_submit.php;f9;30;13;30;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f7;23;11;23;;C:\wamp\www\Bookmark\login_submit.php;f46;42;50;42;;C:\wamp\www\Bookmark\list_bookmark.php;f5;19;9;19;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;26;10;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="stmt;PHP:Var Name;C:\wamp\www\Bookmark\del_bookmark.php;f4;28;9;28;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;29;9;29;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;32;10;32;;C:\wamp\www\Bookmark\addbookmark_submit.php;f4;39;9;39;;C:\wamp\www\Bookmark\adduser_submit.php;f12;69;17;69;;C:\wamp\www\Bookmark\login_submit.php;f12;53;17;53;;C:\wamp\www\Bookmark\list_bookmark.php;f3;22;8;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="stmt;PHP:Var Name;C:\wamp\www\Bookmark\del_bookmark.php;f4;28;9;28;;C:\wamp\www\Bookmark\adduser_submit.php;f12;69;17;69;;C:\wamp\www\Bookmark\addbookmark_submit.php;f4;39;9;39;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;32;10;32;;C:\wamp\www\Bookmark\login_submit.php;f12;53;17;53;;C:\wamp\www\Bookmark\list_bookmark.php;f3;22;8;22;;C:\wamp\www\Bookmark\edit_bookmark.php;f4;29;9;29;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="stmt2;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;55;12;55;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="stmt2;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;59;12;59;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="stmt3;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;58;12;58;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="stmt3;PHP:Var Name;C:\wamp\www\Bookmark\addbookmark_submit.php;f6;62;12;62;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="submit_value;PHP:Var Name;C:\wamp\www\Bookmark\adduser.php;f4;15;17;15;;C:\wamp\www\Bookmark\includes\user_form.php;f51;34;64;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="submit_value;PHP:Var Name;C:\wamp\www\Bookmark\includes\user_form.php;f51;34;64;34;;C:\wamp\www\Bookmark\adduser.php;f4;15;17;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="Tags;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;61;12;61;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f71;13;76;13;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f71;13;76;13;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;61;12;61;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;29;10;29;;C:\wamp\www\Bookmark\addbookmark_submit.php;f7;36;12;36;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Tags;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;61;12;61;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f71;13;76;13;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f71;13;76;13;;C:\wamp\www\Bookmark\addbookmark_submit.php;f7;36;12;36;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;29;10;29;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f71;13;76;13;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;54;11;54;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="Title;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;59;13;59;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f73;5;79;5;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f73;5;79;5;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;59;13;59;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;27;11;27;;C:\wamp\www\Bookmark\addbookmark_submit.php;f7;34;13;34;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Title;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;59;13;59;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f73;5;79;5;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f73;5;79;5;;C:\wamp\www\Bookmark\addbookmark_submit.php;f7;34;13;34;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;27;11;27;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f73;5;79;5;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;52;12;52;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="URL;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;60;11;60;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f69;9;73;9;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f69;9;73;9;;C:\wamp\www\Bookmark\edit_bookmark.php;f7;60;11;60;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;28;9;28;;C:\wamp\www\Bookmark\addbookmark_submit.php;f4;35;8;35;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="URL;PHP:Var Name;C:\wamp\www\Bookmark\Codelobster0.php;f7;60;11;60;;C:\wamp\www\Bookmark\includes\Codelobster0.php;f69;9;73;9;;C:\wamp\www\Bookmark\includes\bookmark_form.php;f69;9;73;9;;C:\wamp\www\Bookmark\addbookmark_submit.php;f4;35;8;35;;C:\wamp\www\Bookmark\edit_bookmark_submit.php;f5;28;9;28;;C:\wamp\www\Bookmark\includes\editbookmark_form.php;f69;9;73;9;;C:\wamp\www\Bookmark\edit_bookmark.php;f6;53;10;53;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="UserEmailAddress;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f1;60;18;60;;C:\wamp\www\Bookmark\includes\user_form.php;f95;22;112;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="UserEmailAddress;PHP:Var Name;C:\wamp\www\Bookmark\includes\user_form.php;f95;22;112;22;;C:\wamp\www\Bookmark\adduser_submit.php;f1;60;18;60;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="UserId;PHP:Var Name;C:\wamp\www\Bookmark\del_bookmark.php;f4;26;11;26;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -118,7 +121,7 @@
 			</treenode>
 			<treenode node="username;PHP:Var Name;C:\wamp\www\Bookmark\includes\conn.php;f0;7;9;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="UserName;PHP:Var Name;C:\wamp\www\Bookmark\includes\header.php;f2;7;11;7;;C:\wamp\www\Bookmark\adduser_submit.php;f4;55;13;55;;C:\wamp\www\Bookmark\includes\user_form.php;f79;14;88;14;;C:\wamp\www\Bookmark\login.php;f77;20;86;20;;C:\wamp\www\Bookmark\index.php;f2;6;11;6;;C:\wamp\www\Bookmark\login_submit.php;f8;42;17;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="UserName;PHP:Var Name;C:\wamp\www\Bookmark\includes\user_form.php;f79;14;88;14;;C:\wamp\www\Bookmark\includes\header.php;f2;7;11;7;;C:\wamp\www\Bookmark\login.php;f77;20;86;20;;C:\wamp\www\Bookmark\adduser_submit.php;f4;55;13;55;;C:\wamp\www\Bookmark\index.php;f2;6;11;6;;C:\wamp\www\Bookmark\login_submit.php;f8;42;17;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="UserPassword;PHP:Var Name;C:\wamp\www\Bookmark\adduser_submit.php;f4;58;17;58;;C:\wamp\www\Bookmark\login_submit.php;f8;46;21;46;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -141,24 +144,24 @@
 	<filescache>
 		<file name="C:\wamp\www\Bookmark\stylesheets\style.css" crc="-1286801247"/>
 		<file name="C:\wamp\www\Bookmark\includes\user_form.php" crc="1089062377"/>
-		<file name="C:\wamp\www\Bookmark\includes\header.php" crc="955473704"/>
+		<file name="C:\wamp\www\Bookmark\includes\header.php" crc="-964139209"/>
 		<file name="C:\wamp\www\Bookmark\includes\footer.php" crc="-1518234480"/>
 		<file name="C:\wamp\www\Bookmark\includes\editbookmark_form.php" crc="1991087507"/>
-		<file name="C:\wamp\www\Bookmark\includes\conn.php" crc="1642697598"/>
+		<file name="C:\wamp\www\Bookmark\includes\conn.php" crc="1794600301"/>
 		<file name="C:\wamp\www\Bookmark\includes\common.php" crc="-901888062"/>
 		<file name="C:\wamp\www\Bookmark\includes\bookmark_form.php" crc="681339541"/>
 		<file name="C:\wamp\www\Bookmark\includes\admin_menu.php" crc="-750727865"/>
 		<file name="C:\wamp\www\Bookmark\logout.php" crc="1742050406"/>
-		<file name="C:\wamp\www\Bookmark\login_submit.php" crc="-2006501408"/>
+		<file name="C:\wamp\www\Bookmark\login_submit.php" crc="-240496097"/>
 		<file name="C:\wamp\www\Bookmark\login.php" crc="878790169"/>
-		<file name="C:\wamp\www\Bookmark\list_bookmark.php" crc="2008926493"/>
+		<file name="C:\wamp\www\Bookmark\list_bookmark.php" crc="1219194412"/>
 		<file name="C:\wamp\www\Bookmark\index.php" crc="1629325649"/>
-		<file name="C:\wamp\www\Bookmark\edit_bookmark_submit.php" crc="1069796403"/>
-		<file name="C:\wamp\www\Bookmark\edit_bookmark.php" crc="-1589778174"/>
-		<file name="C:\wamp\www\Bookmark\del_bookmark.php" crc="-1830226260"/>
-		<file name="C:\wamp\www\Bookmark\adduser_submit.php" crc="1438372617"/>
+		<file name="C:\wamp\www\Bookmark\edit_bookmark_submit.php" crc="1189336504"/>
+		<file name="C:\wamp\www\Bookmark\edit_bookmark.php" crc="-1211594636"/>
+		<file name="C:\wamp\www\Bookmark\del_bookmark.php" crc="645247350"/>
+		<file name="C:\wamp\www\Bookmark\adduser_submit.php" crc="271270010"/>
 		<file name="C:\wamp\www\Bookmark\adduser.php" crc="-878328327"/>
-		<file name="C:\wamp\www\Bookmark\addbookmark_submit.php" crc="-630274086"/>
+		<file name="C:\wamp\www\Bookmark\addbookmark_submit.php" crc="-1938382101"/>
 		<file name="C:\wamp\www\Bookmark\add_bookmark.php" crc="1908983772"/>
 	</filescache>
 </project>

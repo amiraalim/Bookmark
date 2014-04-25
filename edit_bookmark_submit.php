@@ -31,7 +31,7 @@
 	
 					/*** the sql query ***/
 					$stmt = "UPDATE
-						bookmarklist
+						BookmarkList
 						SET						
 						Title = '{$Title}',
 						URL = '{$URL}',

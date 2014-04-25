@@ -27,31 +27,21 @@
 			if($sql)
 			{
 				$BookmarkID = mysqli_real_escape_string($sql,$_GET['bid']);
-				$stmt = "SELECT
-					bookmarklist.BookmarkID,
-					bookmarklist.Title,
-					bookmarklist.URL,
-					bookmarklist.Tags					
+				$stmt = "SELECT BookmarkList.BookmarkID, BookmarkList.Title, BookmarkList.URL, BookmarkList.Tags					
 					FROM
-					bookmarklist,		
-					bookmark_user					
-					WHERE
-					bookmarklist.BookmarkID = $BookmarkID";				
+					BookmarkList Join Bookmark_User					
+					ON BookmarkList.BookmarkID = Bookmark_User.BookmarkID
+					AND
+					Bookmark_User.BookmarkID = $BookmarkID";				
 
 				/*** run the query ***/
-				$result = mysqli_query($sql,$stmt) or die(mysqli_error());
+				$result = mysqli_query($sql,$stmt);
+				$row = mysqli_num_rows($result);
 
-				/*** check for a valid resource ***/
-				if(!is_resource($result))
-				{
-					echo 'Unable to fetch bookmark record';
-				}
-				else
-				{
-					/*** check there is a blog entry ***/
+					/*** check there is a bookmark details ***/
 					if(mysqli_num_rows($result) != 0)
 					{
-						while($row = mysqli_stmt_num_rows($result))
+						while($row = $result->fetch_assoc())
 						{
 							$heading = 'Edit Bookmark';	
 							$bookmarkform_action = 'edit_bookmark_submit.php';
@@ -69,14 +59,10 @@
 					{
 						echo 'No bookmark found';
 					}
-				}
+				
 			}
 		}
-		else
-		{
-			/*** if we are here the database connection has failed ***/
-			echo 'Unable to complete request';
-		}
+		
 	
 		/*** include the footer ***/
 		include 'includes/footer.php';

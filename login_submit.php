@@ -57,7 +57,7 @@
             UserPassword,
             Access_Level
             FROM
-            users
+            Users
             WHERE
             UserName = '{$UserName}'
             AND

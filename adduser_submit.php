@@ -69,7 +69,7 @@ else
 	 /*** the sql query ***/
             $stmt = "INSERT
                 INTO
-                users(
+                Users(
                 UserName,
                 UserPassword,
                 UserEmailAddress,
