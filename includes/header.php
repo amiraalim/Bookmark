@@ -42,8 +42,8 @@ hr{
 <body>
 <div class="menu">
 <ul>
-<li><a href="/index.php">Home</a></li>
-<li><a href="/adduser.php">Register</a></li>
+<li><a href="index.php">Home</a></li>
+<li><a href="adduser.php">Register</a></li>
 <li><a href="<?php echo $log_link; ?>"><?php echo $log_link_name; ?></a></li>
 </ul>
 </div>
