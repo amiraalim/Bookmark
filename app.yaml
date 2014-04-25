@@ -1,0 +1,17 @@
+application: mybookmarkapps1
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+  
+- url: /stylesheets
+  static_dir: stylesheets
+  
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
+
+  
