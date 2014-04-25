@@ -1,0 +1,5 @@
+[global]
+ApplicationName=Bookmark
+DevToolsEndpoint=git.elasticbeanstalk.us-east-1.amazonaws.com
+EnvironmentName=myphpbookmark
+Region=us-east-1
