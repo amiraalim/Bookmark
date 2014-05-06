@@ -11,3 +11,4 @@
 ?>
 
 <?php include("includes/footer.php"); ?>
+<h1>Welcome to Bookmark App</h1>

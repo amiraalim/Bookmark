@@ -23,7 +23,7 @@
 
     	/*** set the form submit button value ***/
     	$bookmarkform_submit_value = 'Add Bookmark';
-    	
+    	$heading='Add Bookmark';
     	/*** include the user form ***/
     	include 'includes/bookmark_form.php';
 

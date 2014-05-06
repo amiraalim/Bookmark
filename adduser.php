@@ -14,7 +14,7 @@
 
     /*** set the form submit button value ***/
     $submit_value = 'Add User';
-
+	$heading='Registration';
     /*** include the header.php file ***/
     include 'includes/header.php';
 
