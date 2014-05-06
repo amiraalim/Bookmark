@@ -12,11 +12,16 @@
 <table>
 	<tr>
 		<td><label for="UserName">Username</label></td>
-		<td><input type="text" id="UserName" name="UserName" value="<?php echo isset($UserName) ? $UserName : ''; ?>" maxlength="20" /></td>
+		<td><input type="text" id="UserName" name="UserName" value="<?php echo isset($UserName) ? $UserName : ''; ?>" maxlength="20" /></td>		
 	</tr>
 	<tr>
 		<td><label for="lblPassword">Password</label></td>
 		<td><input type="password" id="UserPassword" name="UserPassword" value="" maxlength="20" /></td>
+		
+	</tr>
+	<tr>
+	<td></td>
+		<td><label>Password (8 characters or more, no spaces)</label></td>
 	</tr>
 	<tr>
 		<td><label for="UserEmailAddress">Email Address</label></td>

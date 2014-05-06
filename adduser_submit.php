@@ -34,17 +34,17 @@ elseif(strlen($_POST['UserName']) < 2 || strlen($_POST['UserName']) > 25)
 /*** check the length of the UserPassword ***/
 elseif(strlen($_POST['UserPassword']) <= 8 || strlen($_POST['UserPassword']) > 25)
 {
-    $errors[] = 'Invalid Password';
+    $errors[] = 'Password is too short. Please enter 8 characters or more, no spaces.';
 }
 /*** check the length of the users email ***/
 elseif(strlen($_POST['UserEmailAddress']) < 4 || strlen($_POST['UserEmailAddress']) > 254)
 {
-    $errors[] = 'Invalid Email';
+    $errors[] = 'Email is too short. Please enter correct email address.';
 }
 /*** check for email valid email address ***/
 elseif(!preg_match("/^\S+@[\w\d.-]{2,}\.[\w]{2,6}$/iU", $_POST['UserEmailAddress']))
 {
-	$errors[] = 'Email Invalid';
+	$errors[] = 'Invalid type of email. Please enter correct email address.';
 }
 
 else
