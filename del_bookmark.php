@@ -26,7 +26,10 @@
 				$BookmarkID = mysqli_real_escape_string($sql,$_GET['bid']);
 				$UserID = mysqli_real_escape_string($sql,$_SESSION['UserID']);
 				/*** the sql query ***/
-				$stmt = "DELETE	FROM BookmarkList,Bookmark_User WHERE BookmarkList.BookmarkID=Bookmark_User.BookmarkID AND	BookmarkList.BookmarkID = $BookmarkID AND Bookmark_User.UserID = $UserID";				
+				$stmt = "DELETE Bookmark_User, BookmarkList FROM Bookmark_User, BookmarkList 
+				WHERE Bookmark_User.BookmarkID = BookmarkList.BookmarkID 
+				AND Bookmark_User.BookmarkID = $BookmarkID 
+				AND Bookmark_User.UserID = $UserID;";				
 				
 
 				/*** run the query ***/

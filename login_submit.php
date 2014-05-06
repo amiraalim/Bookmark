@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(E_ALL);
     /*** begin output buffering ***/
     ob_start();
 
@@ -10,7 +10,7 @@
 	/*** if we are here, include the db connection ***/
         include 'includes/conn.php';
 		
-
+	$errors = array();
     /*** check the form has been posted and the session variable is set ***/
     if(!isset($_SESSION['form_token']))
     {
@@ -29,11 +29,13 @@
     /*** check the length of the user name ***/
     elseif(strlen($_POST['UserName']) < 2 || strlen($_POST['UserName']) > 25)
     {
+    	$errors[] = 'Invalid User Name';
         $location = 'login.php';
     }
     /*** check the length of the password ***/
     elseif(strlen($_POST['UserPassword']) < 8 || strlen($_POST['UserPassword']) > 25)
     {
+    	$errors[] = 'Password is too short. Your password must be 8 to 32 characters long and contain number.';
         $location = 'login.php';
     }
     else
@@ -67,6 +69,7 @@
             $result = mysqli_query($sql,$stmt);
             if(mysqli_num_rows($result) != 1)
             {
+            	$errors[] = 'Incorrect username and password. Please try again using correct username and password.';
                 $location = 'login.php';
             }
             else
@@ -91,9 +94,25 @@
             }
         }
     }
-
-    /*** redirect ***/
-    header("Location: $location");
+/*** check if there are any errors in the errors array ***/
+if(sizeof($errors) > 0)
+{
+	foreach($errors as $err)
+	{
+		include 'includes/header.php';
+		echo $err,'<br />';		
+		/*** include the footer file ***/		
+		include 'includes/footer.php';
+		
+	}
+	
+}
+else
+{
+	 /*** redirect ***/
+	header("Location: $location");
+}
+   
 
     /*** flush the buffer ***/
     ob_end_flush();
