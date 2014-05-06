@@ -39,7 +39,7 @@
 				/*** the sql query to insert into table bookmarklist ***/
 				$stmt = "INSERT
                 INTO
-                bookmarklist(
+                BookmarkList(
                 Title,
                 URL,
                 Tags)
@@ -48,15 +48,19 @@
                 '{$URL}',
                 '{$Tags}')";
                 
-                if ($result = mysqli_query($sql,$stmt))
+                if (mysqli_query($sql,$stmt))
                 {
-					if(mysqli_affected_rows()> 0)
+                	 $result=mysqli_affected_rows($sql);
+                	 //$inserteddata = mysqli_stmt($stmt);
+                	 
+					if($result > 0)
 					{
-						$BookmarkID = mysqli_stmt_insert_id();							
-						$stmt2 = "SELECT * FROM bookmark_user WHERE bookmarkID ='{$BookmarkID}'";
+						//printf ("New Record has id %d.\n", mysqli_insert_id($sql));
+						$BookmarkID = mysqli_insert_id($sql);							
+						$stmt2 = "SELECT * FROM Bookmark_User WHERE bookmarkID ='{$BookmarkID}'";
 						$result2 = mysqli_query($sql,$stmt2);
 						/*** the sql query to insert into table bookmark_user  ***/
-						$stmt3 = "INSERT INTO bookmark_user(BookmarkID,UserID) values ('{$BookmarkID}','{$UserID}')";
+						$stmt3 = "INSERT INTO Bookmark_User(BookmarkID,UserID) values ('{$BookmarkID}','{$UserID}')";
 						if (mysqli_query($sql,$stmt3))
 						{
 							echo 'Bookmark Added';

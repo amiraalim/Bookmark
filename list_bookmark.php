@@ -20,43 +20,42 @@
 		if($sql)
 		{
 			/*** the SQL query to select last 5 blogs ***/
-			$stmt = "SELECT bookmarklist.BookmarkID,bookmarklist.Title, bookmarklist.URL, bookmarklist.Tags 
-			FROM bookmark_user,bookmarklist
-			where bookmarklist.BookmarkID = bookmark_user.BookmarkID
-			and bookmark_user.UserID = {$UserID}";
+			$stmt = "SELECT BookmarkList.BookmarkID, BookmarkList.Title, BookmarkList.URL, BookmarkList.Tags 
+			FROM Bookmark_User,BookmarkList
+			where BookmarkList.BookmarkID = Bookmark_User.BookmarkID
+			and Bookmark_User.UserID = {$UserID}";
 
 			
 			/*** run the query ***/
 			$result = mysqli_query($sql,$stmt);
-
-			
-				/*** check there are results ***/
-				if(mysqli_num_rows($result) != 1)
+			$row = mysqli_fetch_row($result);
+    
+				if($result = mysqli_query($sql,$stmt))
 				{
-					
-					
-				}
-				else
-				{
-					/*** stuff the bookmarklist entries into a bookmark array ***/
 					$bookmark_array = array();
-					while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
+					$colNames = array();
+					while($row = $result->fetch_assoc())
 					{
 						$bookmark_array[] = $row;
 					}
 					
 					
 				}
-						
+				else
+				{
+					echo 'No bookmark found';
+				}
 		}
+			
+		
 		else
 		{
-			$errors[] = 'Unable to process form';			
+			$errors[] = 'Unable to process form';
 		}
 		
+		
 	}
-	
-	
+
 ?>
 
 <h3>My Bookmark List</h3>
@@ -77,35 +76,38 @@ padding:5px;
 </style>
 </head>
 
-<?php
-$bookmark_array = array();
-while($row = mysqli_fetch_array($result,MYSQLI_ASSOC))
-					{
-						$bookmark_array[] = $row;
-					}
+<?php			
 	/*** loop over the blog array and display blogs ***/
-	echo'<table style="width:400px">
+	?>
+	<table style="width:400px">
 		<tr>
   			<th>Title</th>
   			<th>URL</th>		
   			<th>Tags</th>
   			<th>Edit</th>
   			<th>Delete</th>
-  			</tr>';
-	foreach($bookmark_array as $bookmarklist)
-	{
-		
-		echo'
+  			</tr>
+
+    <?php
+       //print the rows
+      
+       foreach($bookmark_array as $row)
+       {
+          echo'
   		<tr>
 	   <tr>	   
-		<td>'.$bookmarklist['Title'].'</td>
-		<td>'.$bookmarklist['URL'].'</td>
-		<td>'.$bookmarklist['Tags'].'</td>
-		<td><a href="edit_bookmark.php?bid='.$bookmarklist['BookmarkID'].'">Edit</a></td>
-		<td><a href="del_bookmark.php?bid='.$bookmarklist['BookmarkID'].'" onclick="return confirm(\'Are you sure?\')">Delete</a></td>
+		<td>'.$row['Title'].'</td>
+		<td>'.$row['URL'].'</td>
+		<td>'.$row['Tags'].'</td>
+		<td><a href="edit_bookmark.php?bid='.$row['BookmarkID'].'">Edit</a></td>
+		<td><a href="del_bookmark.php?bid='.$row['BookmarkID'].'" onclick="return confirm(\'Are you sure?\')">Delete</a></td>
 	  </tr>
-	';
-	}		
-	echo '</table>';
-?>
+	  ';
+       }
+       
+       				
+		
+    ?>
+ </table>
+
 
