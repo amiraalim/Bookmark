@@ -34,7 +34,7 @@ elseif(strlen($_POST['UserName']) < 2 || strlen($_POST['UserName']) > 25)
 /*** check the length of the UserPassword ***/
 elseif(strlen($_POST['UserPassword']) <= 8 || strlen($_POST['UserPassword']) > 25)
 {
-    $errors[] = 'Password is too short. Please enter 8 characters or more, no spaces.';
+    $errors[] = 'Password is too short. Your password must be 8 to 32 characters long and contain number.';
 }
 /*** check the length of the users email ***/
 elseif(strlen($_POST['UserEmailAddress']) < 4 || strlen($_POST['UserEmailAddress']) > 254)

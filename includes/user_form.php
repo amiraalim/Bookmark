@@ -21,7 +21,7 @@
 	</tr>
 	<tr>
 	<td></td>
-		<td><label>Password (8 characters or more, no spaces)</label></td>
+		<td><label>Password (8 characters and contain numbers)</label></td>
 	</tr>
 	<tr>
 		<td><label for="UserEmailAddress">Email Address</label></td>
