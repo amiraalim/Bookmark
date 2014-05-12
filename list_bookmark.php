@@ -110,4 +110,4 @@ padding:5px;
     ?>
  </table>
 
-
+<?php include("includes/footer.php"); ?>
